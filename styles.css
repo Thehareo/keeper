@@ -1,0 +1,143 @@
+#gay{
+    color: red;
+}
+html{
+    font-family: "McLaren", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(166, 179, 189); 
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+#header{
+    background-color: rgb(236, 202, 8);
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    
+    align-items: center;
+    
+}
+#keep{
+    left: 2%;
+    margin: 0px;
+    position: relative;
+    color: #ffffff;
+    font-size: 40px;
+    
+}
+#copy{
+    opacity: 0.2;
+    
+
+    
+}
+#right{
+    position: fixed;
+    bottom: 2%;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+}
+#title{
+    margin: 0px;
+    font-size: auto;
+
+}
+#cont{
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+}
+#notes {
+    box-shadow: 2px 2px 1px rgb(177, 177, 177);
+    height: 80px;
+    border-radius: 10px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    left: 3%;
+    top: 20px;
+    padding: 15px;
+    min-width: 300px;
+    width: auto; 
+    min-height: 200px;
+    height: auto;
+ 
+    display: inline-block; 
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+#notes:hover{
+    box-shadow: 3px 3px 1px rgb(63, 63, 63);
+}
+#noter{
+    box-shadow: 2px 2px 1px rgb(177, 177, 177);
+    height: 80px;
+    border-radius: 10px;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    left: 3%;
+    top: 20px;
+    padding: 15px;
+    min-width: 300px;
+    width: auto; 
+    min-height: 200px;
+    height: auto;
+    max-width: 800px;
+    display: flex; 
+    flex-direction: column;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    flex-basis: 100%;
+    
+}
+#title2{
+    border: 0px;
+    font-size:50px ;
+    font-family: "McLaren", serif;
+  font-weight: 400;
+  font-style: normal;
+    
+}
+#cont2{
+    border: 0px;
+    font-size: 30px;
+   resize: none;
+   font-family: "McLaren", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#title2:focus{
+    outline: none;
+}
+#cont2:focus{
+    outline: none;
+}
+#delete{
+    position: absolute;
+    bottom: -10%;
+    right: 5%;
+    background-color: rgb(236, 202, 8);
+    color: #ffffff;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    transition: 0.5s;
+    font-family: "McLaren", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+#delete:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(236, 202, 8);
+    scale: 1.1;
+    font-size: 15px;
+}
+
