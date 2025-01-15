@@ -1,5 +1,5 @@
 import React, { useState } from './node_modules/react';
-import ReactDOM from "react-dom/client";
+import ReactDOM from './node_modules/react-dom';
 import Heading from "./heading.jsx";
 import Footer from "./footer.jsx";
 import Note from "./note.jsx";

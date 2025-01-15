@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from './node_modules/react';
 import ReactDOM from "react-dom/client";
 import Heading from "./heading.jsx";
 import Footer from "./footer.jsx";
